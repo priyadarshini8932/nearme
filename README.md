@@ -18,6 +18,4 @@ npm install
 npm run dev                 # http://localhost:3000
 ```
 
-## Deploy
-Push to GitHub (never commit .env) -> Render (backend: root `backend`, start `npm start`, env MONGO_URI + FRONTEND_URL)
--> Vercel (frontend: root `frontend`, env NEXT_PUBLIC_API_URL = your Render URL). Then set FRONTEND_URL on Render to your Vercel URL.
+
